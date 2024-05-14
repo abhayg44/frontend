@@ -1,0 +1,148 @@
+[debug] [2024-05-14T15:21:24.904Z] ----------------------------------------------------------------------
+[debug] [2024-05-14T15:21:24.906Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Abhay G\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-05-14T15:21:24.906Z] CLI Version:   13.8.3
+[debug] [2024-05-14T15:21:24.907Z] Platform:      win32
+[debug] [2024-05-14T15:21:24.907Z] Node Version:  v18.16.0
+[debug] [2024-05-14T15:21:24.908Z] Time:          Tue May 14 2024 20:51:24 GMT+0530 (India Standard Time)
+[debug] [2024-05-14T15:21:24.908Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-14T15:21:24.914Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-14T15:21:24.915Z] > authorizing via signed-in user (abhayg22102003@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Abhay G\Desktop\Abhay\travel-blog\react-frontend\react-frontend-14-modal
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-05-14T15:22:20.555Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-05-14T15:22:20.556Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"reviewblog","name":"reviewblog"}
+[debug] [2024-05-14T15:22:21.998Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2024-05-14T15:22:21.999Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2024-05-14T15:22:22.111Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\Abhay G\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Abhay G\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID reviewblog. Please try again with a unique project ID.
+[debug] [2024-05-14T15:22:35.137Z] ----------------------------------------------------------------------
+[debug] [2024-05-14T15:22:35.138Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Abhay G\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-05-14T15:22:35.139Z] CLI Version:   13.8.3
+[debug] [2024-05-14T15:22:35.139Z] Platform:      win32
+[debug] [2024-05-14T15:22:35.139Z] Node Version:  v18.16.0
+[debug] [2024-05-14T15:22:35.140Z] Time:          Tue May 14 2024 20:52:35 GMT+0530 (India Standard Time)
+[debug] [2024-05-14T15:22:35.140Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-14T15:22:35.147Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-14T15:22:35.147Z] > authorizing via signed-in user (abhayg22102003@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Abhay G\Desktop\Abhay\travel-blog\react-frontend\react-frontend-14-modal
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-05-14T15:22:55.966Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-05-14T15:22:55.966Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"mern","name":"reviewblog"}
+[debug] [2024-05-14T15:22:57.307Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2024-05-14T15:22:57.307Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id must be at least 6 characters long]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id must be at least 6 characters long"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2024-05-14T15:22:57.536Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id must be at least 6 characters long]
+    at responseToError (C:\Users\Abhay G\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Abhay G\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2024-05-14T15:23:07.224Z] ----------------------------------------------------------------------
+[debug] [2024-05-14T15:23:07.226Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Abhay G\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-05-14T15:23:07.226Z] CLI Version:   13.8.3
+[debug] [2024-05-14T15:23:07.227Z] Platform:      win32
+[debug] [2024-05-14T15:23:07.227Z] Node Version:  v18.16.0
+[debug] [2024-05-14T15:23:07.228Z] Time:          Tue May 14 2024 20:53:07 GMT+0530 (India Standard Time)
+[debug] [2024-05-14T15:23:07.228Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-14T15:23:07.234Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-14T15:23:07.235Z] > authorizing via signed-in user (abhayg22102003@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Abhay G\Desktop\Abhay\travel-blog\react-frontend\react-frontend-14-modal
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-05-14T15:23:14.076Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-05-14T15:23:14.914Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-05-14T15:23:14.914Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2024-05-14T15:23:31.817Z] ----------------------------------------------------------------------
+[debug] [2024-05-14T15:23:31.819Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Abhay G\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-05-14T15:23:31.819Z] CLI Version:   13.8.3
+[debug] [2024-05-14T15:23:31.819Z] Platform:      win32
+[debug] [2024-05-14T15:23:31.819Z] Node Version:  v18.16.0
+[debug] [2024-05-14T15:23:31.821Z] Time:          Tue May 14 2024 20:53:31 GMT+0530 (India Standard Time)
+[debug] [2024-05-14T15:23:31.821Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-14T15:23:31.828Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-14T15:23:31.829Z] > authorizing via signed-in user (abhayg22102003@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Abhay G\Desktop\Abhay\travel-blog\react-frontend\react-frontend-14-modal
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-05-14T15:24:16.168Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-05-14T15:24:16.168Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"mern","name":"mern"}
+[debug] [2024-05-14T15:24:17.510Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2024-05-14T15:24:17.510Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id must be at least 6 characters long]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id must be at least 6 characters long"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2024-05-14T15:24:18.071Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [project_id must be at least 6 characters long]
+    at responseToError (C:\Users\Abhay G\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\Abhay G\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:305:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
